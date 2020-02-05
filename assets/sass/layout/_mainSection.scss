@@ -1,0 +1,45 @@
+main{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    // flex-direction: column;
+    .video{
+
+        .video__imagen{
+            width: 80vw;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    main{
+        .video{
+            width: 40%;
+            .video__imagen{
+                width: 50%;
+            }
+            .video__titulo{
+                width: 150px;
+            }
+            .video__bajada{
+                width: 150px;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

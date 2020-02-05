@@ -1,0 +1,85 @@
+.navbar__caja-logo{
+    width:150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.navbar__logo{
+    font-family: $fontLogo;
+    font-size: 25px;
+    margin: 0;
+    position: absolute;
+}
+
+.navbar__logo-complemento{
+    font-family: $fontLogo;
+    font-size: 10px;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+
+li{
+    padding: 10px;
+}
+
+.asdf{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-section{
+    background-image: url(../images/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}
+
+.perfil{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    .perfil__foto{
+        border-radius: 150px;
+        width: 80px;
+        height: 80px;
+    }
+    .perfil__datos{
+        display: inherit;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        .perfil__nombre{
+            margin: 0;
+        }
+        .perfil__seguidores{
+            margin: 0;   
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .hero-section{
+        height: 150px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .hero-section{
+        height: 200px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
