@@ -1,14 +1,32 @@
 main{
-    width: 80vw;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2{
+    text-align: center;
+}
+
+.grilla{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    // flex-direction: column;
     .video{
-
+        display: inherit;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         .video__imagen{
+            width: 80vw;
+        }
+        .video__titulo{
+            width: 80vw;
+            margin: 0;
+        }
+        .video__bajada{
             width: 80vw;
         }
     }
@@ -20,17 +38,17 @@ main{
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    main{
+    .grilla{
         .video{
-            width: 40%;
             .video__imagen{
-                width: 50%;
+                width: 20vw;
             }
             .video__titulo{
-                width: 150px;
+                width: 20vw;
+                margin: 0;
             }
             .video__bajada{
-                width: 150px;
+                width: 20vw;
             }
         }
     }

@@ -1,0 +1,32 @@
+.navbar__caja-logo{
+    width:150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.navbar__logo{
+    font-family: $fontLogo;
+    font-size: 25px;
+    margin: 0;
+    position: absolute;
+}
+
+.navbar__logo-complemento{
+    font-family: $fontLogo;
+    font-size: 10px;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+
+li{
+    padding: 10px;
+}
+
+.asdf{
+    display: flex;
+    justify-content: flex-end;
+}
