@@ -101,6 +101,9 @@ main {
   background-position: center;
   height: 100px; }
 
+.perfil-boton {
+  width: 100vw; }
+
 .perfil {
   padding: 20px;
   display: flex;
@@ -119,11 +122,40 @@ main {
     .perfil .perfil__datos .perfil__seguidores {
       margin: 0; }
 
+.boton {
+  display: none; }
+
 @media (min-width: 576px) {
   .hero-section {
     height: 150px; } }
 @media (min-width: 768px) {
   .hero-section {
-    height: 200px; } }
+    height: 200px; }
+
+  .perfil-boton {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+  .boton {
+    display: block; } }
+.perfil-boton
+.boton__mensaje {
+  width: 100px;
+  height: 40px;
+  background-color: #7bcedd;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 16px; }
+
+.boton__seguir {
+  width: 100px;
+  height: 40px;
+  background-color: #d14540;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 16px; }
 
 /*# sourceMappingURL=styles.css.map */
