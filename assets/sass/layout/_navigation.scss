@@ -30,3 +30,37 @@ li{
     display: flex;
     justify-content: flex-end;
 }
+
+.nav-item{
+    display: flex;
+}
+
+.nav__texto{
+    margin: 0;
+    padding-left: 30px;
+}
+
+.ocultado{
+    display: none;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .nav__texto{
+        display: none;
+    }
+    .nav__icono{
+        padding: 0 10px;
+    }
+    .ocultado{
+        display: block;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
